@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>daadwwda</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<div id="app">
+  
+  <h2>
+  DIGITA AQUI UMA PARADA PRA TU POSTAR
+  </h2>
+  <input id="postar">
+  <button id="inputButton" v-on:click="adicionarPost">POSTAR</button>
+  
+  <ol>
+    <ul v-for="todo in todos">
+    <span v-for="todo in ids">id:{{todo.idAtual}}</span>
+    <br><br><br>
+    {{todo.text}}
+    <br><br><br>
+    <span v-for="todo in horarios">{{todo.horario}}</span>
+    </ul>
+  </ol>
+
+  <script type="text/javascript" src="js.js"></script>
+</div>
+
+</body>
+</html>

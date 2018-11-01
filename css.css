@@ -1,0 +1,33 @@
+h2 {
+  
+  text-align:center
+  
+}
+
+#postar {
+  
+  width: 100%;
+  margin-bottom: 3%;
+  height: 30px;
+  
+}
+
+#inputButton {
+  
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+ul {
+  
+  margin-top: 2%;
+  width: 60%;
+  border: 1px solid black;
+  padding: 1%;
+  margin-left:auto;
+  margin-right: auto;
+  
+}
